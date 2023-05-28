@@ -1,0 +1,149 @@
+.slider-App {
+    background-image: url("https://www.myteam.ma/wp-content/uploads/2020/10/bk20.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+
+    h2.title {
+        font-family: "PT Sans Bold", sans-serif !important;
+        padding: 20px 0 10px;
+        text-align: center;
+        color: #fefefe;
+    }
+}
+
+.slideC {
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    width: 362px;
+    height: 272px;
+    margin: 0 auto;
+}
+
+.slide-filter {
+    background: rgba(22, 137, 190, 0.3);
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    position: absolute;
+    z-index: 11;
+}
+
+.slide {
+    width: 362px;
+    height: 272px;
+    transition: transform 500ms ease 0s, opacity 500ms ease 0s,
+        visibility 500ms ease 0s;
+    position: absolute;
+    top: 0;
+    border-radius: 12px;
+}
+
+/* 3D reflection effect */
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderContent {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 202px;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.sliderContent p img {
+    width: 60px;
+}
+
+.sliderContent h2 {
+    margin: 16px 0;
+}
+
+.sliderContent p {
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.bande {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background: rgba(15, 130, 168, 0.8);
+}
+
+.bande p {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 5px;
+    font-family: "PT Sans Regular", sans-serif !important;
+}
+
+.bande img {
+    margin-top: 10px;
+}
+
+/* normal css  */
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.btns {
+    text-align: center;
+    padding-top: 20px;
+
+    svg {
+        color: white;
+    }
+
+    svg:hover {
+        color: rgb(15, 130, 168);
+    }
+
+}
+
+.btns .btn {
+    cursor: pointer;
+}
+
+.btns .btn:last-child {
+    margin-left: 40px;
+}
+
+/* normal css  */
+
+.sliderContent svg {
+    filter: none !important;
+}
+.description {
+    color: #fefefe;
+    position: absolute;
+    top: 320px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "PT Sans Regular", sans-serif !important;
+}

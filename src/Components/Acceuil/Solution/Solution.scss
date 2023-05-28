@@ -1,0 +1,49 @@
+ .solution-container {
+     padding: 0 !important;
+     margin: 0 !important;
+ }
+
+ .global-solution {
+     margin-top: 380px;
+
+     .solution-background {
+         background-position-y: center;
+         background-repeat: no-repeat;
+         width: 100%;
+         z-index: -1;
+         height: 365px;
+         filter: brightness(0.2);
+         background-size: cover;
+         background-image: url("https://cdn.wallpapersafari.com/55/99/JPR1KZ.jpg");
+         position: absolute;
+     }
+
+     .solution-title {
+         height: 180px;
+
+         .title {
+             text-align: center;
+             color: rgb(22, 174, 224);
+             font-family: "PT Sans Bold", sans-serif !important;
+         }
+     }
+
+     .solution-countUp {
+         display: flex;
+         justify-content: space-between;
+         flex-wrap: wrap;
+         width: 100%;
+         align-items: start;
+         padding: 30px 0;
+
+         div {
+             text-align: center;
+             color: white;
+             font-family: "PT Sans Regular", sans-serif !important;
+
+             p {
+                 font-size: 18px;
+             }
+         }
+     }
+ }

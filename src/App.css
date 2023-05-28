@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "PT Sans Bold";
+  src: local("PT Sans"),
+    url("/src/assets/font/PT_Sans/PTSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PT Sans Regular";
+  src: local("PT Sans"),
+    url("/src/assets/font/PT_Sans/PTSans-Regular.ttf") format("truetype");
+}
+
+.App {
+  overflow: hidden;
+}

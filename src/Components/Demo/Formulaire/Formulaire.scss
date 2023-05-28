@@ -1,0 +1,88 @@
+.demo-background {
+
+    img {
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        filter: brightness(0.6);
+        width: 100%;
+        z-index: -1;
+    }
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    color: #fefefe;
+    font-family: "PT Sans Bold", sans-serif !important;
+    font-size: 60px;
+}
+
+.demo-content {
+    .demo-form {
+        color: #B1B1B1;
+        background: #fefefe !important;
+        border-radius: 20px !important;
+
+        .row-demo-video {
+            background-image: url("https://www.myteam.ma/wp-content/uploads/2020/08/Calque-2.jpg");
+            background-size: cover;
+            height: 500px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            margin-bottom: 50px;
+        }
+
+        .video-desc {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.521);
+
+            h2 {
+                color: rgb(22, 174, 224);
+            }
+
+            p {
+                color: #B1B1B1;
+            }
+        }
+
+        .demo-elemets {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: end;
+            margin: auto;
+
+            .demo-input {
+                margin: auto;
+                width: 30%;
+
+            }
+
+            .form-control {
+                border-radius: 20px !important;
+            }
+
+            .form-select {
+                border-radius: 20px !important;
+            }
+
+            .demo-confirm {
+                background-color: #fefefe;
+                color: black;
+                border-radius: 20px !important;
+                margin-top: 45px;
+                margin-right: 1.68%;
+                width: 150px;
+            }
+
+            .text-area {
+                height: 67px;
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.footer {
+  padding: 20px 0;
+  background-image: url("../../assets/Imgs/App.test.js.jpg");
+  background-size: cover;
+  background-position: 0 -20px;
+  background-repeat: no-repeat;
+}
+.footer .footer-icons {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 300px;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .footer-icons img {
+  width: 260px;
+}
+.footer .footer-icons .footer-icon {
+  margin: auto;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 14px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.footer .footer-icons .footer-icon:hover {
+  color: rgb(22, 174, 224);
+  background-color: rgb(255, 255, 255);
+  transition: 0.3s;
+}
+.footer .footer-desc {
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+.footer .footer-desc p span img {
+  width: 20px;
+}
+.footer .footer-desc .copyright {
+  color: rgb(22, 174, 224);
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer .left {
+  width: 320px;
+  margin: auto;
+  text-align: justify;
+}
+.footer .left span {
+  -webkit-text-decoration: lawngreen underline;
+          text-decoration: lawngreen underline;
+}/*# sourceMappingURL=Footer.css.map */

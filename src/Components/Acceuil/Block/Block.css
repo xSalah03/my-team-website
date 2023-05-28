@@ -1,0 +1,63 @@
+.block-container {
+  margin-top: 150px !important;
+}
+.block-container .cards {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.block-container .cards .block {
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 10px 15px;
+  width: 95% !important;
+  height: 230px;
+  border-radius: 13px !important;
+  position: relative;
+  background: #005f84;
+  display: flex !important;
+  justify-content: center !important;
+}
+.block-container .cards .block .block-filter {
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  background: linear-gradient(0.25turn, rgba(255, 255, 255, 0), #005f84);
+  left: 270px;
+}
+.block-container .cards .block img {
+  height: 230px;
+  border-radius: 13px 0 0 13px !important;
+}
+.block-container .cards .block .flex-box {
+  background: #005f84;
+  height: 220;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 0 13px 13px 0 !important;
+  color: white;
+}
+.block-container .cards .block .flex-box p {
+  font-size: 15px;
+  margin-right: 30px;
+  text-align: justify;
+}
+.block-container .cards .block .flex-box .demo-button-sm {
+  width: 180px;
+  font-size: 15px;
+  padding: 10px;
+  background: #005f84;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #fefefe;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+.block-container .cards .block .flex-box .demo-button-sm span {
+  margin-right: 5px;
+}
+.block-container .cards .block .demo-button-sm:hover {
+  border-color: #005f84;
+  color: #005f84;
+  background: #fefefe;
+}/*# sourceMappingURL=Block.css.map */

@@ -1,0 +1,106 @@
+.Appbar {
+    z-index: 10;
+    font-family: "PT Sans Bold", sans-serif !important;
+
+
+    .navigation-bar {
+        z-index: 10;
+        padding: 0;
+        position: fixed !important;
+        background: #363d411f !important;
+        width: 100vw;
+
+        img {
+            width: 40px !important;
+            cursor: pointer;
+        }
+    }
+
+    .navigation-bar-true {
+        z-index: 10;
+        padding: 0;
+        position: fixed !important;
+        background: rgba(15, 130, 168, 0.8) !important;
+        width: 100vw;
+
+        img {
+            width: 40px !important;
+            cursor: pointer;
+        }
+
+        .appbar-link:hover {
+            color: rgba(0, 0, 0, 0.3);
+        }
+    }
+}
+
+.appbar-container {
+    width: 98% !important;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    .bg-logo {
+        background-color: white !important;
+        width: 12% !important;
+        height: 100% !important;
+        clip-path: polygon(0 0, 76% 0, 100% 100%, 0% 100%);
+        text-align: center;
+    }
+
+    .bg-logo-true {
+        background-color: white !important;
+        width: 12% !important;
+        height: 100% !important;
+        clip-path: polygon(0 0, 76% 0, 100% 100%, 0% 100%);
+        text-align: center;
+    }
+
+
+
+    .d-flex {
+        width: 180px;
+
+        .demo {
+            font-size: 13px;
+            padding: 5px;
+            background-color: #fefefe;
+            color: #212529;
+            border: 0;
+            font-family: "PT Sans Bold", sans-serif !important;
+        }
+
+        .demo:hover {
+            background-color: rgb(22, 174, 224);
+            color: #fefefe;
+        }
+
+        .demo-unvisible {
+            display: none;
+        }
+    }
+}
+
+.me-auto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+
+    .appbar-link {
+        margin: 0 30px 0 0;
+        color: #fefefe;
+        font-weight: bold;
+    }
+
+    .appbar-link:hover {
+        color: rgb(22, 174, 224);
+    }
+
+    .icon {
+        background-color: #212529;
+        color: rgb(22, 174, 224);
+    }
+
+
+}
